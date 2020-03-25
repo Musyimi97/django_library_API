@@ -9,7 +9,7 @@ class Book(models.Model):
     
 
     def __str__(self):
-        return 
+        return self.title
 
     def __unicode__(self):
         return 
