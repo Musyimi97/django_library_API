@@ -40,7 +40,7 @@ INSTALLED_APPS = [
 
 
     # local
-    "books.app.BooksConfig"
+    "books.apps.BooksConfig"
 ]
 
 MIDDLEWARE = [
