@@ -45,7 +45,7 @@ INSTALLED_APPS = [
     # local
     "books.apps.BooksConfig",
     "api.apps.ApiConfig",
-]
+    "todos.apps.TodosConfig",]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
