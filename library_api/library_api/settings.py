@@ -46,7 +46,8 @@ INSTALLED_APPS = [
     # local
     "books.apps.BooksConfig",
     "api.apps.ApiConfig",
-    "todos.apps.TodosConfig",]
+    "todos.apps.TodosConfig",
+    "posts.apps.PostsConfig",    ]
 
 REST_FRAMEWORK ={
     'DEFAULT_PERMISSION_CLASSES':[
