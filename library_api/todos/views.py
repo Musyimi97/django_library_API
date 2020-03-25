@@ -1,4 +1,4 @@
-from rest_framework import generic
+from rest_framework import generics
 from .models import Todo
 from .serializers import TodoSerializer
 # Create your views here.
