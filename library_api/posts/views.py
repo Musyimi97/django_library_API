@@ -4,10 +4,11 @@ from .serializers import PostSerializers
 
 # Create your views here.
 class PostList(generics.ListCreateAPIView):
+    permission_classes = (permissions.IsAuthenticated),
     queryset= Post.objects.all()
     serializer_class = PostSerializers
 
 class PostDetail(generics.RetrieveUpdateDestroyAPIView):
-    perimission_classes = (permissions.IsAuthenticated),
+    permission_classes = (permissions.IsAuthenticated),
     queryset = Post.objects.all()
     serializer_class =PostSerializers
